@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" width="100%" height="100%">
+  <defs>
+    <!-- 精致的科技感渐变 -->
+    <linearGradient id="chassisSideGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64748b" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    
+    <linearGradient id="chassisTopGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    <!-- 激光雷达红色指示灯氖光特效 -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      /* ──────────────────────────────────────────────────
+         动效声明（原生的纯 CSS Keyframe 动画机制）
+         ────────────────────────────────────────────────── */
+      
+      /* 1. 车身整体微调上下律动（怠速浮动效果） */
+      @keyframes floatBody {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-3.5px); }
+      }
+
+      /* 2. 轮子匀速旋转 */
+      @keyframes wheelSpin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      /* 3. 地面阴影随车身浮动作出有节奏的缩放及渐变 */
+      @keyframes shadowPulse {
+        0%, 100% { transform: scale(1); opacity: 0.3; }
+        50% { transform: scale(1.08); opacity: 0.18; }
+      }
+
+      /* 4. 天线规律晃动 */
+      @keyframes antennaWobble {
+        0%, 100% { transform: rotate(-5deg); }
+        50% { transform: rotate(4deg); }
+      }
+
+      /* 5. 激光雷达红光呼吸闪烁 */
+      @keyframes ledPulse {
+        0%, 100% { transform: scale(0.95); opacity: 0.5; }
+        50% { transform: scale(1.3); opacity: 1; }
+      }
+
+      /* 6. 机器人眨眼过渡 */
+      @keyframes eyeBlink {
+        0%, 94%, 100% { transform: scaleY(1); }
+        97% { transform: scaleY(0.1); }
+      }
+
+      /* 7. 后轮地面烟尘微粒动画 */
+      @keyframes dustLeft {
+        0% { transform: translate(0, 0) scale(1); opacity: 0.4; }
+        100% { transform: translate(-12px, 6px) scale(1.8); opacity: 0; }
+      }
+      @keyframes dustRight {
+        0% { transform: translate(0, 0) scale(1); opacity: 0.4; }
+        100% { transform: translate(12px, 6px) scale(1.8); opacity: 0; }
+      }
+
+      /* ──────────────────────────────────────────────────
+         应用动画类
+         ────────────────────────────────────────────────── */
+      .robot-body {
+        animation: floatBody 2s ease-in-out infinite;
+        transform-origin: 100px 105px;
+      }
+
+      .shadow {
+        animation: shadowPulse 2s ease-in-out infinite;
+        transform-origin: 100px 142px;
+      }
+
+      .spin-wheel {
+        animation: wheelSpin 0.7s linear infinite;
+      }
+      .wheel-l { transform-origin: 40px 110px; }
+      .wheel-r { transform-origin: 160px 110px; }
+      .wheel-f { transform-origin: 100px 125px; }
+
+      .antenna {
+        animation: antennaWobble 1.2s ease-in-out infinite;
+        transform-origin: 150px 45px;
+      }
+
+      .glow-dot {
+        animation: ledPulse 1.5s ease-in-out infinite;
+        transform-origin: 100px 16px;
+      }
+
+      .robot-eye {
+        animation: eyeBlink 4s ease-in-out infinite;
+      }
+      .eye-l { transform-origin: 72px 95px; }
+      .eye-r { transform-origin: 128px 95px; }
+
+      .dust-particle-l {
+        animation: dustLeft 0.5s ease-out infinite;
+        transform-origin: 40px 110px;
+      }
+      .dust-particle-r {
+        animation: dustRight 0.5s ease-out infinite;
+        transform-origin: 160px 110px;
+        animation-delay: 0.25s;
+      }
+    </style>
+  </defs>
+
+  <!-- 1. 动态地面投影阴影 -->
+  <ellipse class="shadow" cx="100" cy="142" rx="68" ry="8" fill="rgba(0, 0, 0, 0.45)" filter="blur(5px)" />
+
+  <!-- 2. 行驶微尘动效（运动暗示） -->
+  <g>
+    <circle class="dust-particle-l" cx="30" cy="115" r="2.5" fill="#94a3b8" />
+    <circle class="dust-particle-l" cx="25" cy="118" r="1.5" fill="#94a3b8" style="animation-delay: 0.15s;" />
+    <circle class="dust-particle-r" cx="170" cy="115" r="2.5" fill="#94a3b8" />
+    <circle class="dust-particle-r" cx="175" cy="118" r="1.5" fill="#94a3b8" style="animation-delay: 0.35s;" />
+  </g>
+
+  <!-- 3. 背景侧边及后排透视轮轮 -->
+  <g class="spin-wheel wheel-l">
+    <circle cx="40" cy="110" r="22" fill="#0f172a" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" />
+    <circle cx="40" cy="110" r="18" fill="none" stroke="rgba(255,255,255,0.08)" stroke-dasharray="10 6" stroke-width="3" />
+    <circle cx="40" cy="110" r="5" fill="#475569" />
+    <circle cx="40" cy="110" r="1.5" fill="#f8fafc" />
+  </g>
+
+  <g class="spin-wheel wheel-r">
+    <circle cx="160" cy="110" r="22" fill="#0f172a" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" />
+    <circle cx="160" cy="110" r="18" fill="none" stroke="rgba(255,255,255,0.08)" stroke-dasharray="10 6" stroke-width="3" />
+    <circle cx="160" cy="110" r="5" fill="#475569" />
+    <circle cx="160" cy="110" r="1.5" fill="#f8fafc" />
+  </g>
+
+  <!-- 4. 天线组件（随车摆动） -->
+  <g class="antenna">
+    <line x1="150" y1="45" x2="165" y2="5" stroke="#475569" stroke-width="3.5" stroke-linecap="round" />
+    <circle cx="165" cy="5" r="4.5" fill="#334155" />
+    <circle cx="165" cy="5" r="2" fill="#facc15" filter="url(#neonGlow)" />
+  </g>
+
+  <!-- 5. 车身主体组合（随浮动动画振作） -->
+  <g class="robot-body">
+    <!-- 主体底盘三维圆柱侧板 -->
+    <path d="M20,105 Q100,135 180,105 L180,60 Q100,90 20,60 Z" fill="url(#chassisSideGrad)" />
+    <!-- 主体底盘顶板椭圆 -->
+    <ellipse cx="100" cy="60" rx="80" ry="32" fill="url(#chassisTopGrad)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+
+    <!-- 眨眼交互显示屏面部区域 -->
+    <g transform="translate(0, 15)">
+      <!-- 左眼组件 (主眼 + 瞳孔) -->
+      <ellipse class="robot-eye eye-l" cx="72" cy="80" rx="7.5" ry="8" fill="#f8fafc" />
+      <circle class="robot-eye eye-l" cx="72" cy="80" r="3" fill="#0f172a" />
+      <!-- 右眼组件 (主眼 + 瞳孔) -->
+      <ellipse class="robot-eye eye-r" cx="128" cy="80" rx="7.5" ry="8" fill="#f8fafc" />
+      <circle class="robot-eye eye-r" cx="128" cy="80" r="3" fill="#0f172a" />
+      
+      <!-- 极简酷感眉毛 -->
+      <path d="M 62 67 Q 72 63 82 67" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round" fill="none" />
+      <path d="M 118 67 Q 128 63 138 67" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round" fill="none" />
+
+      <!-- 喜悦微弯弧度小嘴 -->
+      <path d="M 88 100 Q 100 110 112 100" stroke="#cbd5e1" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.9" />
+    </g>
+
+    <!-- 顶部激光雷达雷达罩组件 (Lidar Unit) -->
+    <g transform="translate(100, 48)">
+      <path d="M-22,12 Q0,18 22,12 L22,0 Q0,6 -22,0 Z" fill="#334155" />
+      <ellipse cx="0" cy="0" rx="22" ry="7" fill="#475569" />
+      
+      <!-- 核心雷达旋转头 -->
+      <path d="M-25,-12 Q0,0 25,-12 L25,-32 Q0,-20 -25,-32 Z" fill="#0f172a" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+      <ellipse cx="0" cy="-32" rx="25" ry="10" fill="#1e293b" stroke="rgba(255,255,255,0.25)" stroke-width="1" />
+      
+      <!-- 动态旋转扫描槽红光指示灯 -->
+      <circle class="glow-dot" cx="0" cy="-32" r="4.5" fill="#ef4444" filter="url(#neonGlow)" />
+      <circle cx="0" cy="-32" r="2.5" fill="#fca5a5" />
+    </g>
+  </g>
+
+  <!-- 6. 前端方向控制主动轮（凸显全向麦克纳姆轮质感） -->
+  <g class="spin-wheel wheel-f">
+    <circle cx="100" cy="125" r="26" fill="#020617" stroke="#1e293b" stroke-width="2" />
+    <circle cx="100" cy="125" r="21" fill="none" stroke="rgba(255,255,255,0.07)" stroke-dasharray="12 6" stroke-width="4.5" />
+    <circle cx="100" cy="125" r="10" fill="#1e293b" />
+    <circle cx="100" cy="125" r="5" fill="#475569" />
+    <circle cx="100" cy="125" r="1.5" fill="#f8fafc" />
+  </g>
+</svg>
