@@ -1,0 +1,888 @@
+{
+  "nav_data_实用办公": [
+    {
+      "name": "qq邮箱",
+      "url": "https://wx.mail.qq.com",
+      "desc": "腾讯",
+      "icon": "si:qq"
+    },
+    {
+      "name": "163邮箱",
+      "url": "https://mail.163.com",
+      "desc": "网易",
+      "icon": "si:neteasecloudmusic"
+    },
+    {
+      "name": "时光邮局",
+      "url": "https://www.hi2future.com",
+      "desc": "给未来的自己写一封信",
+      "icon": "ri:ri-key-line"
+    },
+    {
+      "name": "夸克网盘",
+      "url": "https://pan.quark.cn/list#/list/all",
+      "desc": "高速云端存储与分享",
+      "icon": "fa:fa-solid fa-cloud"
+    },
+    {
+      "name": "魔方简历",
+      "url": "https://resume.52uni.cn/zh",
+      "desc": "专业简约的求职简历模板",
+      "icon": "ri:ri-briefcase-line"
+    },
+    {
+      "name": "Flowus",
+      "url": "https://flowus.cn/8f806c49-9c4c-489b-983f-94ebf0e6c214",
+      "desc": "云笔记",
+      "icon": "fa:fa-solid fa-briefcase"
+    },
+    {
+      "name": "无名图书",
+      "url": "https://www.book123.info",
+      "desc": "电子书下载",
+      "icon": "ri:ri-git-repository-line"
+    },
+    {
+      "name": "Aix",
+      "url": "https://aixdownloader.com/zh",
+      "desc": "获取网页内容",
+      "icon": "ri:ri-magic-line"
+    },
+    {
+      "name": "视频转GIF",
+      "url": "https://www.video2edit.com/zh/convert/mp4-to-gif",
+      "desc": "简易视频切片转动态图",
+      "icon": "ri:ri-film-line"
+    },
+    {
+      "name": "文字识别",
+      "url": "https://ocr.wdku.net",
+      "desc": "图片识别文字",
+      "icon": "fa:fa-solid fa-shapes"
+    }
+  ],
+  "nav_data_效率工具": [
+    {
+      "name": "Matlab在线网站",
+      "url": "https://matlab.mathworks.com",
+      "desc": "在线数学建模与仿真",
+      "icon": "url:https://cdn.jsdmirror.com/gh/devicons/devicon@latest/icons/matlab/matlab-original.svg"
+    },
+    {
+      "name": "科学上网Clash",
+      "url": "https://www.clashverge.dev/install.html",
+      "desc": "流行的网络代理客户端",
+      "icon": "fa:fa-solid fa-earth-americas"
+    },
+    {
+      "name": "花生壳访问控制",
+      "url": "https://console.hsk.oray.com/info/logs",
+      "desc": "内网穿透与动态域名解析",
+      "icon": "ri:ri-earth-line"
+    },
+    {
+      "name": "摩羯科学",
+      "url": "https://mojie.app/dashboard",
+      "desc": "网络优化与加速服务",
+      "icon": "ri:ri-shining-line"
+    },
+    {
+      "name": "TinyPNG",
+      "url": "https://tinypng.com",
+      "desc": "智能图片压缩工具",
+      "icon": "ri:ri-settings-4-line"
+    },
+    {
+      "name": "Carbon",
+      "url": "https://carbon.now.sh",
+      "desc": "生成漂亮的代码图片",
+      "icon": "ri:ri-braces-line"
+    },
+    {
+      "name": "在线工具",
+      "url": "https://tool.lu",
+      "desc": "程序员常用的在线工具箱",
+      "icon": "fa:fa-solid fa-wrench"
+    },
+    {
+      "name": "Keyborad learner",
+      "url": "https://qwerty.liumingye.cn",
+      "desc": "打字练习与键盘熟悉工具",
+      "icon": "ri:ri-scissors-line"
+    },
+    {
+      "name": "代码可视化工具",
+      "url": "https://staying.fun/zh",
+      "desc": "程序执行流程动画演示",
+      "icon": "ri:ri-brackets-line"
+    },
+    {
+      "name": "Goblin",
+      "url": "https://goblin.tools",
+      "desc": "任务步骤工具",
+      "icon": "fa:fa-solid fa-wand-magic-sparkles"
+    },
+    {
+      "name": "Xmind思维导图在线",
+      "url": "https://ai.xmind.cn/home/recents?utm_medium=homepage&utm_campaign=try_web&_gl=1*1lf3g3j*_ga*NDA3Njc3MjgzLjE3NTg5MDE1MDA.*_ga_1T6MSGLZTB*czE3NTg5MDE0OTkkbzEkZzEkdDE3NTg5MDMzNjYkajU5JGwwJGgw",
+      "desc": "在线制作思维导图工具",
+      "icon": "ri:ri-shape-2-line"
+    },
+    {
+      "name": "10分钟临时邮箱",
+      "url": "https://10minutemail.com",
+      "desc": "保护隐私的匿名临时邮件",
+      "icon": "fa:fa-solid fa-envelope"
+    },
+    {
+      "name": "ToolFk",
+      "url": "https://www.toolfk.com/zh-cn",
+      "desc": "超全工具网",
+      "icon": "fa:fa-solid fa-hammer"
+    },
+    {
+      "name": "开发者工具库",
+      "url": "https://devtool.tech",
+      "desc": "程序员常用的小工具合集",
+      "icon": "ri:ri-rainbow-line"
+    },
+    {
+      "name": "IP归属地查询",
+      "url": "https://www.ip5.me",
+      "desc": "IP地址物理位置定位查询",
+      "icon": "ri:ri-map-2-line"
+    },
+    {
+      "name": "Flourish",
+      "url": "https://app.flourish.studio/templates",
+      "desc": "数据动画",
+      "icon": "ri:ri-movie-2-line"
+    },
+    {
+      "name": "一本日记网页版",
+      "url": "https://web.xianfengtech.cn/web2/#/login?redirect=%2F",
+      "desc": "优雅的在线日记记录工具",
+      "icon": "ri:ri-equalizer-line"
+    },
+    {
+      "name": "MyFreeMp3",
+      "url": "https://tools.liumingye.cn/music/#",
+      "desc": "在线音乐播放与下载工具",
+      "icon": "ri:ri-music-2-line"
+    },
+    {
+      "name": "智能线稿生成器",
+      "url": "https://zcoloring.com/zh",
+      "desc": "AI 自动生成精美线稿",
+      "icon": "ri:ri-global-line"
+    },
+    {
+      "name": "免费pdf转换",
+      "url": "https://tools.pdf24.org/zh",
+      "desc": "在线PDF编辑与转换工具",
+      "icon": "fa:fa-solid fa-seedling"
+    }
+  ],
+  "nav_data_搜索常用": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com",
+      "desc": "全球最大的搜索引擎",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/google-color.svg"
+    },
+    {
+      "name": "百度",
+      "url": "https://www.baidu.com",
+      "desc": "国内较常用的搜索引擎",
+      "icon": "si:baidu"
+    },
+    {
+      "name": "百度翻译",
+      "url": "https://fanyi.baidu.com/mtpe-individual/multimodal?ext_channel=pcPinzhuan#",
+      "desc": "多语种翻译在线工具",
+      "icon": "fa:fa-solid fa-language"
+    },
+    {
+      "name": "必应",
+      "url": "https://www.bing.com",
+      "desc": "微软旗下的搜索引擎",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/bing-color.svg"
+    },
+    {
+      "name": "网盘资料搜索",
+      "url": "https://www.alipansou.com",
+      "desc": "云盘资源在线搜索工具",
+      "icon": "fa:fa-solid fa-magnifying-glass"
+    }
+  ],
+  "nav_data_影视娱乐": [
+    {
+      "name": "YouTube(油管)",
+      "url": "https://www.youtube.com",
+      "desc": "视频分享",
+      "icon": "si:youtube"
+    },
+    {
+      "name": "哔哩哔哩",
+      "url": "https://www.bilibili.com",
+      "desc": "在线视频分享",
+      "icon": "si:bilibili"
+    },
+    {
+      "name": "抖音",
+      "url": "https://www.douyin.com",
+      "desc": "创意短视频社交",
+      "icon": "si:tiktok"
+    },
+    {
+      "name": "steam网页版",
+      "url": "https://store.steampowered.com",
+      "desc": "全球领先的游戏分发平台",
+      "icon": "si:steam"
+    },
+    {
+      "name": "英文动画大全",
+      "url": "https://www.wcostream.tv",
+      "desc": "英语启蒙动画学习资源",
+      "icon": "ri:ri-tv-2-line"
+    },
+    {
+      "name": "樱花动漫",
+      "url": "https://www.dongguanchangfang.com",
+      "desc": "最新最全的热门动漫资源",
+      "icon": "fa:fa-solid fa-clapperboard"
+    },
+    {
+      "name": "QQ音乐",
+      "url": "https://y.qq.com",
+      "desc": "海量曲库的高品质音乐平台",
+      "icon": "ri:ri-mv-fill"
+    },
+    {
+      "name": "Seedhup影视下载",
+      "url": "https://www.seedhub.cc",
+      "desc": "高质量影视资源分享站",
+      "icon": "ri:ri-dv-line"
+    },
+    {
+      "name": "米兔音乐",
+      "url": "https://www.qqmp3.vip",
+      "desc": "纯净音乐播放与下载",
+      "icon": "ri:ri-headphone-line"
+    },
+    {
+      "name": "musclewiki",
+      "url": "https://musclewiki.com",
+      "desc": "科学健身",
+      "icon": "fa:fa-solid fa-leaf"
+    },
+    {
+      "name": "Green Video",
+      "url": "https://greenvideo.cc",
+      "desc": "视频解析",
+      "icon": "ri:ri-video-line"
+    },
+    {
+      "name": "全球动画取景地",
+      "url": "https://anitabi.cn",
+      "desc": "动漫现实原型地巡礼",
+      "icon": "ri:ri-folder-image-line"
+    },
+    {
+      "name": "360全景看世界",
+      "url": "https://airpano.org.cn",
+      "desc": "沉浸式实景地图旅游",
+      "icon": "fa:fa-solid fa-map-location-dot"
+    },
+    {
+      "name": "虚拟与现实VR全景",
+      "url": "https://www.utovr.com",
+      "desc": "VR全景视频与图片展示",
+      "icon": "ri:ri-road-map-line"
+    },
+    {
+      "name": "随便开开车",
+      "url": "https://slowroads.io/#A2-7d6ded6d@1.00",
+      "desc": "趣味休闲赛车在线小游戏",
+      "icon": "fa:fa-solid fa-gamepad"
+    },
+    {
+      "name": "全球实况摄像头",
+      "url": "https://www.skylinewebcams.com",
+      "desc": "实时观看世界各地直播画面",
+      "icon": "fa:fa-solid fa-location-dot"
+    },
+    {
+      "name": "OldSwf",
+      "url": "https://oldswf.com/?ref=www.bidianer.com",
+      "desc": "在线小游戏",
+      "icon": "ri:ri-mickey-line"
+    },
+    {
+      "name": "解压小游戏",
+      "url": "https://neal.fun",
+      "desc": "舒缓压力的趣味网页游戏",
+      "icon": "fa:fa-solid fa-dice"
+    },
+    {
+      "name": "迷宫小游戏",
+      "url": "https://maze.toys",
+      "desc": "在线走迷宫挑战智力",
+      "icon": "ri:ri-sword-line"
+    },
+    {
+      "name": "汤姆和杰瑞英文版全集",
+      "url": "https://www.toontales.net/series/tom-and-jerry",
+      "desc": "猫和老鼠经典系列",
+      "icon": "ri:ri-megaphone-line"
+    },
+    {
+      "name": "ometv",
+      "url": "https://m.ome.tv",
+      "desc": "国际尬聊",
+      "icon": "ri:ri-user-voice-fill"
+    },
+    {
+      "name": "英文环球日报",
+      "url": "https://www.chinadaily.com.cn",
+      "desc": "China Daily 官方英语新闻",
+      "icon": "ri:ri-cpu-line"
+    },
+    {
+      "name": "Airconsole",
+      "url": "https://www.airconsole.com",
+      "desc": "手机游戏手柄",
+      "icon": "ri:ri-gamepad-line"
+    },
+    {
+      "name": "海绵宝宝英文版全集",
+      "url": "https://www.megacartoons.net/video-serie/spongebob-squarepants",
+      "desc": "经典卡通英文学习素材",
+      "icon": "fa:fa-solid fa-film"
+    }
+  ],
+  "nav_data_竞赛与刷题": [
+    {
+      "name": "力扣",
+      "url": "https://leetcode.cn",
+      "desc": "计算机刷题",
+      "icon": "url:https://cdn.jsdmirror.com/gh/devicons/devicon@latest/icons/leetcode/leetcode-original.svg"
+    },
+    {
+      "name": "面试鸭",
+      "url": "https://www.mianshiya.com",
+      "desc": "程序员面试刷题神器",
+      "icon": "fa:fa-solid fa-fire-flame-simple"
+    },
+    {
+      "name": "Hello 算法",
+      "url": "https://www.hello-algo.com",
+      "desc": "动画图解数据结构与算法",
+      "icon": "ri:ri-empathize-fill"
+    }
+  ],
+  "nav_data_开发者资源": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com",
+      "desc": "全球最大的开源代码托管平台",
+      "icon": "si:github"
+    },
+    {
+      "name": "Gitee",
+      "url": "https://gitee.com",
+      "desc": "代码托管",
+      "icon": "si:gitee"
+    },
+    {
+      "name": "V2EX",
+      "url": "https://v2ex.com",
+      "desc": "创意工作者们的社区",
+      "icon": "fa:fa-solid fa-v"
+    },
+    {
+      "name": "CSDN社区",
+      "url": "https://www.csdn.net",
+      "desc": "IT问答",
+      "icon": "fa:fa-solid fa-c"
+    },
+    {
+      "name": "开源中国",
+      "url": "https://www.oschina.net",
+      "desc": "开源社区(中国)",
+      "icon": "fa:fa-solid fa-o"
+    },
+    {
+      "name": "SourceForge开源网站",
+      "url": "https://sourceforge.net",
+      "desc": "全球知名的开源软件托管平台",
+      "icon": "si:sourceforge"
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "desc": "全球最大的编程问答社区",
+      "icon": "si:stackoverflow"
+    },
+    {
+      "name": "稀土掘金",
+      "url": "https://juejin.cn",
+      "desc": "国内优质的开发者技术社区",
+      "icon": "ri:ri-gemini-line"
+    },
+    {
+      "name": "思否",
+      "url": "https://segmentfault.com",
+      "desc": "中国领先的开发者技术社区",
+      "icon": "fa:fa-solid fa-s"
+    },
+    {
+      "name": "vercel",
+      "url": "https://vercel.com",
+      "desc": "网站托管",
+      "icon": "si:vercel"
+    },
+    {
+      "name": "阿里云官网",
+      "url": "https://www.aliyun.com/?utm_content=se_1016658434",
+      "desc": "领先的云计算服务商",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/alibabacloud-color.svg"
+    },
+    {
+      "name": "腾讯云",
+      "url": "https://cloud.tencent.com/act/pro/spring-202503?fromSource=gwzcw.9434368.9434368.9434368&utm_medium=cpc&utm_id=gwzcw.9434368.9434368.9434368",
+      "desc": "腾讯提供的云计算服务",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/tencentcloud-color.svg"
+    },
+    {
+      "name": "立创商城",
+      "url": "https://www.szlcsc.com",
+      "desc": "元器件选购",
+      "icon": "si:easyeda"
+    },
+    {
+      "name": "嘉立创PCB打样平台",
+      "url": "https://www.jlc.com",
+      "desc": "专业的PCB打样与SMT贴片",
+      "icon": "si:easyeda"
+    },
+    {
+      "name": "Makerworld",
+      "url": "https://makerworld.com.cn/zh",
+      "desc": "拓竹模型",
+      "icon": "si:bambulab"
+    },
+    {
+      "name": "软仓",
+      "url": "https://www.ruancang.net/?ref=openi.cn#/sim",
+      "desc": "各大软下载",
+      "icon": "ri:ri-send-plane-line"
+    },
+    {
+      "name": "凹凸工坊",
+      "url": "https://www.autohanding.com",
+      "desc": "前端技术沉淀与经验分享",
+      "icon": "fa:fa-solid fa-globe"
+    },
+    {
+      "name": "Uiverse",
+      "url": "https://uiverse.io",
+      "desc": "组件UI开源库",
+      "icon": "fa:fa-solid fa-lightbulb"
+    }
+  ],
+  "nav_data_技术文档": [
+    {
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org",
+      "desc": "权威的 Web 开发文档",
+      "icon": "si:mdnwebdocs"
+    },
+    {
+      "name": "Vue.js",
+      "url": "https://vuejs.org",
+      "desc": "渐进式 JavaScript framework",
+      "icon": "si:vuedotjs"
+    },
+    {
+      "name": "React",
+      "url": "https://react.dev",
+      "desc": "用于构建用户界面的库",
+      "icon": "si:react"
+    },
+    {
+      "name": "Vite",
+      "url": "https://vitejs.dev",
+      "desc": "下一代前端开发与构建工具",
+      "icon": "si:vite"
+    },
+    {
+      "name": "VitePress",
+      "url": "https://vitepress.dev",
+      "desc": "由 Vite 和 Vue 驱动的静态站点生成器",
+      "icon": "url:https://cdn.jsdmirror.com/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+    },
+    {
+      "name": "宇树科技开发文档",
+      "url": "https://support.unitree.com/home/zh/H1_developer",
+      "desc": "机器人开发技术文档",
+      "icon": "ri:ri-terminal-box-line"
+    },
+    {
+      "name": "Electron桌面框架",
+      "url": "https://www.electronjs.org",
+      "desc": "跨平台桌面应用开发",
+      "icon": "url:https://cdn.jsdmirror.com/gh/devicons/devicon@latest/icons/electron/electron-original.svg"
+    },
+    {
+      "name": "ROS全局/局部路径规划",
+      "url": "https://wiki.ros.org/navigation/Tutorials/Writing",
+      "desc": "机器人导航算法学习",
+      "icon": "si:ros"
+    },
+    {
+      "name": "Linux命令查询网站",
+      "url": "https://wangchujiang.com/linux-command",
+      "desc": "常用Linux命令速查手册",
+      "icon": "url:https://cdn.jsdmirror.com/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+    },
+    {
+      "name": "B站莫老师组件库",
+      "url": "https://www.在下莫老师.com/#",
+      "desc": "Vue/React 高质量组件分享",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/bilibili-color.svg"
+    },
+    {
+      "name": "pytorch中文文档",
+      "url": "https://pytorch-cn.readthedocs.io/zh/latest",
+      "desc": "深度学习框架官方中文指南",
+      "icon": "url:https://cdn.jsdmirror.com/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
+    },
+    {
+      "name": "原创力文档大全",
+      "url": "https://max.book118.com",
+      "desc": "学术论文与工程文档分享",
+      "icon": "ri:ri-open-arm-line"
+    },
+    {
+      "name": "创客智造",
+      "url": "https://www.ncnynl.com",
+      "desc": "机器人技术",
+      "icon": "ri:ri-compass-3-line"
+    },
+    {
+      "name": "大厂项目复盘",
+      "url": "https://www.yuque.com/wikidesign/ykf0s9",
+      "desc": "互联网大厂实战项目总结",
+      "icon": "ri:ri-palette-line"
+    }
+  ],
+  "nav_data_生活百科": [
+    {
+      "name": "boss直聘",
+      "url": "https://www.zhipin.com/chengshi/c101191200",
+      "desc": "直接与老板谈工作的招聘网",
+      "icon": "fa:fa-solid fa-person-walking-luggage"
+    },
+    {
+      "name": "前程无忧",
+      "url": "https://www.51job.com",
+      "desc": "综合性求职招聘服务平台",
+      "icon": "fa:fa-solid fa-truck-fast"
+    },
+    {
+      "name": "猎聘网",
+      "url": "https://www.liepin.com",
+      "desc": "中高端人才职业发展平台",
+      "icon": "fa:fa-solid fa-briefcase"
+    },
+    {
+      "name": "中国地图",
+      "url": "https://map.bmcx.com",
+      "desc": "高清中国行政区划地图",
+      "icon": "ri:ri-compass-discover-line"
+    },
+    {
+      "name": "wikihow",
+      "url": "https://zh.wikihow.com",
+      "desc": "万事指南",
+      "icon": "ri:ri-book-line"
+    },
+    {
+      "name": "心晴网",
+      "url": "http://www.ixinqing.com",
+      "desc": "心理健康与自我提升资源",
+      "icon": "fa:fa-solid fa-circle-info"
+    },
+    {
+      "name": "读书派",
+      "url": "https://www.dushupai.com",
+      "desc": "分享读书笔记与书评社区",
+      "icon": "ri:ri-task-line"
+    },
+    {
+      "name": "食用手册",
+      "url": "https://cook.yunyoujun.cn",
+      "desc": "极简烹饪食谱与厨房技巧",
+      "icon": "ri:ri-knife-line"
+    }
+  ],
+  "nav_data_设计灵感": [
+    {
+      "name": "Photopea",
+      "url": "https://www.photopea.com",
+      "desc": "在线PS",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/adobe-color.svg"
+    },
+    {
+      "name": "fontawesome图标库",
+      "url": "https://fontawesome.com",
+      "desc": "世界知名的图标字体库",
+      "icon": "si:fontawesome"
+    },
+    {
+      "name": "Tabler icons",
+      "url": "https://www.remixicon.com",
+      "desc": "简洁实用的开源图标",
+      "icon": "ri:ri-ball-pen-line"
+    },
+    {
+      "name": "Remix icons",
+      "url": "https://tabler.io/icons",
+      "desc": "开源中性风格图标库",
+      "icon": "ri:ri-shape-line"
+    },
+    {
+      "name": "高清图标库",
+      "url": "https://simpleicons.org",
+      "desc": "SVG图标在线搜索下载",
+      "icon": "si:simpleicons"
+    },
+    {
+      "name": "阿里矢量图标库",
+      "url": "https://www.iconfont.cn",
+      "desc": "iconfont",
+      "icon": "fa:fa-solid fa-pen-nib"
+    },
+    {
+      "name": "中国红",
+      "url": "http://zhongguose.com",
+      "desc": "颜色参考",
+      "icon": "ri:ri-artboard-line"
+    },
+    {
+      "name": "webgradients",
+      "url": "https://webgradients.com",
+      "desc": "渐变色参考",
+      "icon": "ri:ri-sun-line"
+    },
+    {
+      "name": "配色神仙网站",
+      "url": "https://hao.uisdc.com/color",
+      "desc": "设计师必备色彩搭配指南",
+      "icon": "fa:fa-solid fa-icons"
+    },
+    {
+      "name": "ZSFT",
+      "url": "https://fonts.zeoseven.com/browse",
+      "desc": "可商用字体",
+      "icon": "ri:ri-moon-line"
+    },
+    {
+      "name": "11万张png免扣素材",
+      "url": "https://pngimg.com",
+      "desc": "海量透明背景图片资源",
+      "icon": "ri:ri-star-line"
+    },
+    {
+      "name": "文字构成海报",
+      "url": "https://lyricsposter.net",
+      "desc": "在线设计创意文字排版",
+      "icon": "ri:ri-windy-line"
+    },
+    {
+      "name": "SVG插画免费商用",
+      "url": "https://undraw.co/illustrations",
+      "desc": "精美插画素材免费下载",
+      "icon": "si:svg"
+    },
+    {
+      "name": "花瓣",
+      "url": "https://huaban.com/follow",
+      "desc": "作生活的设计师",
+      "icon": "ri:ri-leaf-line"
+    },
+    {
+      "name": "CSS灵感库",
+      "url": "https://csscoco.com/inspiration/#",
+      "desc": "前端CSS创意效果集锦",
+      "icon": "si:css"
+    },
+    {
+      "name": "设计软件教程",
+      "url": "https://www.doyoudo.com",
+      "desc": "PS/AI/PR等设计软件学习",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/adobefirefly-color.svg"
+    },
+    {
+      "name": "网站设计灵感库",
+      "url": "https://www.landingfolio.com",
+      "desc": "全球优秀网页设计案例",
+      "icon": "fa:fa-solid fa-palette"
+    }
+  ],
+  "nav_data_学习教育": [
+    {
+      "name": "TutorialsOpoint",
+      "url": "https://www.tutorialspoint.com/index.htm",
+      "desc": "优秀的英文技术教程网站",
+      "icon": "fa:fa-solid fa-school"
+    },
+    {
+      "name": "菜鸟编程网",
+      "url": "https://www.cainiaojc.com",
+      "desc": "零基础编程学习平台",
+      "icon": "ri:ri-seedling-line"
+    },
+    {
+      "name": "w3c圈编程",
+      "url": "https://www.w3ccoo.com",
+      "desc": "前端基础学习与交流",
+      "icon": "fa:fa-solid fa-laptop-code"
+    },
+    {
+      "name": "爱编程的大丙",
+      "url": "https://subingwen.cn",
+      "desc": "编程教程",
+      "icon": "ri:ri-command-line"
+    },
+    {
+      "name": "科学上网教程",
+      "url": "https://hali.life/?p=97",
+      "desc": "网络代理配置学习指南",
+      "icon": "ri:ri-draft-line"
+    },
+    {
+      "name": "高等数学函数图像生成器",
+      "url": "https://www.desmos.com/calculator?lang=zh-CN",
+      "desc": "可视化数学函数绘制工具",
+      "icon": "ri:ri-contacts-book-line"
+    },
+    {
+      "name": "小学习题字帖打印生成器",
+      "url": "https://www.dayin.page",
+      "desc": "练习题与字帖在线生成",
+      "icon": "fa:fa-solid fa-screwdriver-wrench"
+    },
+    {
+      "name": "Geogebra数学函数可视化",
+      "url": "https://www.geogebra.org/calculator",
+      "desc": "动态几何与代数绘图工具",
+      "icon": "ri:ri-hammer-line"
+    },
+    {
+      "name": "中国大学MOOC",
+      "url": "https://www.icourse163.org",
+      "desc": "优质的高等教育在线课程",
+      "icon": "fa:fa-solid fa-toolbox"
+    },
+    {
+      "name": "网易ted演讲",
+      "url": "https://open.163.com/ted",
+      "desc": "全球思想家精彩演说集",
+      "icon": "si:neteasecloudmusic"
+    },
+    {
+      "name": "世界各国历史",
+      "url": "https://www.allhistory.com",
+      "desc": "纵观全球历史文化脉络",
+      "icon": "ri:ri-rocket-line"
+    },
+    {
+      "name": "Phet",
+      "url": "https://phet.colorado.edu/zh_CN",
+      "desc": "物化生地仿真",
+      "icon": "fa:fa-solid fa-paper-plane"
+    },
+    {
+      "name": "古诗文全盘汇总",
+      "url": "https://www.gushiwen.cn",
+      "desc": "中国传统文学经典鉴赏",
+      "icon": "ri:ri-cloud-line"
+    },
+    {
+      "name": "世界博物馆",
+      "url": "https://gallerix.asia",
+      "desc": "云端欣赏全球名画艺术",
+      "icon": "ri:ri-anchor-line"
+    }
+  ],
+  "nav_data_AI工具": [
+    {
+      "name": "Gemini",
+      "url": "https://gemini.google.com/app",
+      "desc": "Google DeepMind旗下人工智能",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/gemini-color.svg"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "desc": "Anthropic 旗下的 AI 助手",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/claudecode-color.svg"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com",
+      "desc": "OpenAI 旗下的 AI 对话工具",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/openai.svg"
+    },
+    {
+      "name": "DeepSeek",
+      "url": "https://www.deepseek.com",
+      "desc": "国产高性能 AI 语言模型",
+      "icon": "si:deepseek"
+    },
+    {
+      "name": "豆包AI",
+      "url": "https://www.doubao.com/chat/?channel=baidu_pz&from_login=1&origin_landing=https%3A%2F%2Fwww.doubao.com%2Fchat%2F%3Fchannel%3Dbaidu_pz%26source%3Ddb_baidu_pz_01%26keywordid%3Dweizhi7",
+      "desc": "字节跳动 AI 助手",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/bytedance-color.svg"
+    },
+    {
+      "name": "TRAE",
+      "url": "https://www.trae.ai/",
+      "desc": "字节跳动旗下AI 编程工具",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/trae-color.svg"
+    },
+    {
+      "name": "百度开放平台",
+      "url": "https://ai.baidu.com",
+      "desc": "百度AI能力与地图服务",
+      "icon": "si:baidu"
+    },
+    {
+      "name": "讯飞星火模型",
+      "url": "https://xinghuo.xfyun.cn",
+      "desc": "科大讯飞大模型",
+      "icon": "ri:ri-brain-line"
+    },
+    {
+      "name": "科大讯飞開放平台",
+      "url": "https://www.xfyun.cn",
+      "desc": "语音识别与AI能力开放",
+      "icon": "ri:ri-sparkling-line"
+    },
+    {
+      "name": "Ai导航大全",
+      "url": "https://openi.cn",
+      "desc": "AI工具与应用集成导航",
+      "icon": "ri:ri-tools-line"
+    },
+    {
+      "name": "字节火山AI引擎",
+      "url": "https://www.volcengine.com",
+      "desc": "火山引擎云原生与AI服务",
+      "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/bytedance-color.svg"
+    }
+  ]
+}
