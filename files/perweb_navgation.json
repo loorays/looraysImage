@@ -52,13 +52,7 @@
       "name": "Aix",
       "url": "https://aixdownloader.com/zh",
       "desc": "获取网页内容",
-      "icon": "ri:ri-magic-line"
-    },
-    {
-      "name": "魔方简历",
-      "url": "https://resume.52uni.cn/zh",
-      "desc": "专业简约的求职简历模板",
-      "icon": "ri:ri-briefcase-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/aix.png"
     }
   ],
   "nav_data_效率工具": [
@@ -245,6 +239,12 @@
       "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/google-color.svg"
     },
     {
+      "name": "Google Mail",
+      "url": "https://mail.google.com",
+      "desc": "Google 邮箱",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/gmail.png"
+    },
+    {
       "name": "Google Play",
       "url": "https://play.google.com/store/games?hl=en",
       "desc": "Google Play商店",
@@ -267,6 +267,12 @@
       "url": "https://img2cdn.loorays.top/",
       "desc": "GitHub图片转CDN高速链接",
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/loorays.png"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://www.nvidia.com/",
+      "desc": "NVIDIA官网",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/nvidia.png"
     },
     {
       "name": "百度",
@@ -334,7 +340,31 @@
       "name": "小红书",
       "url": "https://www.xiaohongshu.com/",
       "desc": "你的生活兴趣社区",
-      "icon": "ri:ri-global-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/xiaohongshu.png"
+    },
+    {
+      "name": "OldSwf",
+      "url": "https://oldswf.com/?ref=www.bidianer.com",
+      "desc": "在线小游戏（无需安装）",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/oldswf.png"
+    },
+    {
+      "name": "解压小游戏",
+      "url": "https://neal.fun",
+      "desc": "舒缓压力的趣味网页游戏",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/neal.png"
+    },
+    {
+      "name": "随便开开车",
+      "url": "https://slowroads.io/#A2-7d6ded6d@1.00",
+      "desc": "趣味休闲赛车在线小游戏",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/%E5%BC%80%E8%BD%A6.png"
+    },
+    {
+      "name": "迷宫小游戏",
+      "url": "https://maze.toys",
+      "desc": "在线走迷宫挑战智力",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/maze.toys.png"
     },
     {
       "name": "英文动画大全",
@@ -346,7 +376,7 @@
       "name": "QQ音乐",
       "url": "https://y.qq.com",
       "desc": "海量曲库的高品质音乐平台",
-      "icon": "ri:ri-mv-fill"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/qqmusic.png"
     },
     {
       "name": "米兔音乐",
@@ -370,91 +400,55 @@
       "name": "Green Video",
       "url": "https://greenvideo.cc",
       "desc": "各大平台视频下载",
-      "icon": "ri:ri-video-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/greenvideo.png"
     },
     {
       "name": "全球动画取景地",
       "url": "https://anitabi.cn",
       "desc": "动漫现实原型地巡礼",
-      "icon": "ri:ri-folder-image-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/%E5%8A%A8%E7%94%BB%E5%B7%A1%E7%A4%BC.png"
     },
     {
       "name": "360全景看世界",
       "url": "https://airpano.org.cn",
       "desc": "沉浸式实景地图旅游",
-      "icon": "fa:fa-solid fa-map-location-dot"
-    },
-    {
-      "name": "虚拟与现实VR全景",
-      "url": "https://www.utovr.com",
-      "desc": "VR全景视频与图片展示",
-      "icon": "ri:ri-road-map-line"
-    },
-    {
-      "name": "随便开开车",
-      "url": "https://slowroads.io/#A2-7d6ded6d@1.00",
-      "desc": "趣味休闲赛车在线小游戏",
-      "icon": "fa:fa-solid fa-gamepad"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/airpano.png"
     },
     {
       "name": "全球实况摄像头",
       "url": "https://www.skylinewebcams.com",
       "desc": "实时观看世界各地直播画面",
-      "icon": "fa:fa-solid fa-location-dot"
-    },
-    {
-      "name": "OldSwf",
-      "url": "https://oldswf.com/?ref=www.bidianer.com",
-      "desc": "在线小游戏",
-      "icon": "ri:ri-mickey-line"
-    },
-    {
-      "name": "解压小游戏",
-      "url": "https://neal.fun",
-      "desc": "舒缓压力的趣味网页游戏",
-      "icon": "fa:fa-solid fa-dice"
-    },
-    {
-      "name": "迷宫小游戏",
-      "url": "https://maze.toys",
-      "desc": "在线走迷宫挑战智力",
-      "icon": "ri:ri-sword-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/skylinewebcams.png"
     },
     {
       "name": "汤姆和杰瑞英文版全集",
       "url": "https://www.toontales.net/series/tom-and-jerry",
       "desc": "猫和老鼠经典系列",
-      "icon": "ri:ri-megaphone-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/tomJery.png"
     },
     {
       "name": "ometv",
       "url": "https://m.ome.tv",
       "desc": "国际尬聊",
-      "icon": "ri:ri-user-voice-fill"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/ometv.png"
     },
     {
       "name": "英文环球日报",
       "url": "https://www.chinadaily.com.cn",
       "desc": "China Daily 官方英语新闻",
-      "icon": "ri:ri-cpu-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/cd.png"
     },
     {
       "name": "Airconsole",
       "url": "https://www.airconsole.com",
       "desc": "手机游戏手柄",
-      "icon": "ri:ri-gamepad-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/airconsole.png"
     },
     {
       "name": "海绵宝宝英文版全集",
       "url": "https://www.megacartoons.net/video-serie/spongebob-squarepants",
       "desc": "经典卡通英文学习素材",
-      "icon": "fa:fa-solid fa-film"
-    },
-    {
-      "name": "樱花动漫",
-      "url": "https://www.dongguanchangfang.com",
-      "desc": "最新最全的热门动漫资源",
-      "icon": "fa:fa-solid fa-clapperboard"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/spongebob.png"
     }
   ],
   "nav_data_竞赛与刷题": [
@@ -685,10 +679,22 @@
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/chuangxin.png"
     },
     {
+      "name": "XTOOL",
+      "url": "https://wiki.xtool.cn/zh/home",
+      "desc": "xTool 产品帮助中心",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/xtool.png"
+    },
+    {
       "name": "禾赛科技",
       "url": "https://www.hesaitech.com/cn/",
       "desc": "激光雷达核心厂商",
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/hesai.svg"
+    },
+    {
+      "name": "洛微科技",
+      "url": "https://luminwave.com.cn/",
+      "desc": "专注灵巧手近距离视觉感知/摄像头",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/luowei.svg"
     },
     {
       "name": "灵心巧手",
@@ -697,10 +703,16 @@
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/灵心巧手.png"
     },
     {
-      "name": "洛微科技",
-      "url": "https://luminwave.com.cn/",
-      "desc": "专注灵巧手近距离视觉感知/摄像头",
-      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/luowei.svg"
+      "name": "悟时底盘",
+      "url": "https://www.wooshrobot.com/",
+      "desc": "OSH 移动底盘 × 功能模组 × 开放软件",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/woosh.png"
+    },
+    {
+      "name": "悟时底盘资料",
+      "url": "https://wooshrobot.apifox.cn/",
+      "desc": "悟时底盘二次开发资料",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/woosh.png"
     },
     {
       "name": "微雪电子",
@@ -719,6 +731,12 @@
       "url": "https://vuejs.org",
       "desc": "渐进式 JavaScript framework",
       "icon": "si:vuedotjs"
+    },
+    {
+      "name": "Upstash",
+      "url": "https://upstash.com/",
+      "desc": "无服务器数据平台",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/upstash.png"
     },
     {
       "name": "React",
@@ -789,34 +807,34 @@
   ],
   "nav_data_生活百科": [
     {
-      "name": "boss直聘",
+      "name": "Boss直聘",
       "url": "https://www.zhipin.com/chengshi/c101191200",
       "desc": "直接与老板谈工作的招聘网",
-      "icon": "fa:fa-solid fa-person-walking-luggage"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/boss.png"
     },
     {
       "name": "前程无忧",
       "url": "https://www.51job.com",
       "desc": "综合性求职招聘服务平台",
-      "icon": "fa:fa-solid fa-truck-fast"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/qiancheng.png"
     },
     {
       "name": "猎聘网",
       "url": "https://www.liepin.com",
       "desc": "中高端人才职业发展平台",
-      "icon": "fa:fa-solid fa-briefcase"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/liepin.png"
     },
     {
       "name": "中国地图",
       "url": "https://map.bmcx.com",
       "desc": "高清中国行政区划地图",
-      "icon": "ri:ri-compass-discover-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/map.png"
     },
     {
       "name": "wikihow",
       "url": "https://zh.wikihow.com",
       "desc": "万事指南",
-      "icon": "ri:ri-book-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/wikihow.png"
     },
     {
       "name": "心晴网",
@@ -828,13 +846,13 @@
       "name": "读书派",
       "url": "https://www.dushupai.com",
       "desc": "分享读书笔记与书评社区",
-      "icon": "ri:ri-task-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/dushupai.png"
     },
     {
       "name": "食用手册",
       "url": "https://cook.yunyoujun.cn",
       "desc": "极简烹饪食谱与厨房技巧",
-      "icon": "ri:ri-knife-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/shiyongshouce.png"
     }
   ],
   "nav_data_设计灵感": [
@@ -950,7 +968,7 @@
       "name": "pinterest",
       "url": "https://www.pinterest.com/",
       "desc": "国外高质量图片网站",
-      "icon": "url:https://cdn.jsdmirror.com/gh/"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/pinterest.png"
     }
   ],
   "nav_data_学习教育": [
@@ -958,55 +976,55 @@
       "name": "TutorialsOpoint",
       "url": "https://www.tutorialspoint.com/index.htm",
       "desc": "优秀的英文技术教程网站",
-      "icon": "fa:fa-solid fa-school"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/tutorialspoint.png"
     },
     {
       "name": "菜鸟编程网",
       "url": "https://www.cainiaojc.com",
       "desc": "零基础编程学习平台",
-      "icon": "ri:ri-seedling-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/cainiao.png"
     },
     {
       "name": "w3c圈编程",
       "url": "https://www.w3ccoo.com",
       "desc": "前端基础学习与交流",
-      "icon": "fa:fa-solid fa-laptop-code"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/w3c.png"
     },
     {
       "name": "爱编程的大丙",
       "url": "https://subingwen.cn",
       "desc": "编程教程",
-      "icon": "ri:ri-command-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/subingwen.png"
     },
     {
       "name": "科学上网教程",
       "url": "https://hali.life/?p=97",
       "desc": "网络代理配置学习指南",
-      "icon": "ri:ri-draft-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/fanqiang.png"
     },
     {
-      "name": "高等数学函数图像生成器",
+      "name": "Desmos",
       "url": "https://www.desmos.com/calculator?lang=zh-CN",
       "desc": "可视化数学函数绘制工具",
-      "icon": "ri:ri-contacts-book-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/desmos.png"
     },
     {
-      "name": "小学习题字帖打印生成器",
-      "url": "https://www.dayin.page",
-      "desc": "练习题与字帖在线生成",
-      "icon": "fa:fa-solid fa-screwdriver-wrench"
-    },
-    {
-      "name": "Geogebra数学函数可视化",
+      "name": "Geogebra",
       "url": "https://www.geogebra.org/calculator",
       "desc": "动态几何与代数绘图工具",
-      "icon": "ri:ri-hammer-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/geogebra.png"
+    },
+    {
+      "name": "答印 ",
+      "url": "https://www.dayin.page",
+      "desc": "练习题与字帖在线生成",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/dayin.png"
     },
     {
       "name": "中国大学MOOC",
       "url": "https://www.icourse163.org",
       "desc": "优质的高等教育在线课程",
-      "icon": "fa:fa-solid fa-toolbox"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/mooc.png"
     },
     {
       "name": "网易ted演讲",
@@ -1015,28 +1033,28 @@
       "icon": "si:neteasecloudmusic"
     },
     {
-      "name": "世界各国历史",
+      "name": "全历史",
       "url": "https://www.allhistory.com",
       "desc": "纵观全球历史文化脉络",
-      "icon": "ri:ri-rocket-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/history.png"
     },
     {
       "name": "Phet",
       "url": "https://phet.colorado.edu/zh_CN",
       "desc": "物化生地仿真",
-      "icon": "fa:fa-solid fa-paper-plane"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/phet.png"
     },
     {
       "name": "古诗文全盘汇总",
       "url": "https://www.gushiwen.cn",
       "desc": "中国传统文学经典鉴赏",
-      "icon": "ri:ri-cloud-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/gushiwen.png"
     },
     {
       "name": "世界博物馆",
       "url": "https://gallerix.asia",
       "desc": "云端欣赏全球名画艺术",
-      "icon": "ri:ri-anchor-line"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/musem.png"
     }
   ],
   "nav_data_AI工具": [
@@ -1113,12 +1131,6 @@
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/xunfei.ico"
     },
     {
-      "name": "Ai导航大全",
-      "url": "https://openi.cn",
-      "desc": "AI工具与应用集成导航",
-      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/ai.png"
-    },
-    {
       "name": "字节火山AI引擎",
       "url": "https://www.volcengine.com",
       "desc": "火山引擎云原生与AI服务",
@@ -1135,6 +1147,12 @@
       "url": "https://ai.baidu.com",
       "desc": "百度AI能力与地图服务",
       "icon": "si:baidu"
+    },
+    {
+      "name": "Ai导航大全",
+      "url": "https://openi.cn",
+      "desc": "AI工具与应用集成导航",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/ai.png"
     }
   ]
 }
