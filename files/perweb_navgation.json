@@ -53,6 +53,12 @@
       "url": "https://aixdownloader.com/zh",
       "desc": "获取网页内容",
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/aix.png"
+    },
+    {
+      "name": "魔方简历",
+      "url": "https://resume.52uni.cn/zh",
+      "desc": "专业简约的求职简历模板",
+      "icon": "ri:ri-briefcase-line"
     }
   ],
   "nav_data_效率工具": [
@@ -177,7 +183,7 @@
       "icon": "ri:ri-global-line"
     },
     {
-      "name": "免费pdf转换",
+      "name": "PDF 24",
       "url": "https://tools.pdf24.org/zh",
       "desc": "在线PDF编辑与转换工具",
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/pdf24.svg"
@@ -257,6 +263,12 @@
       "icon": "si:googleearth"
     },
     {
+      "name": "NVIDIA",
+      "url": "https://www.nvidia.com/",
+      "desc": "NVIDIA官网",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/nvidia.png"
+    },
+    {
       "name": "Loorays",
       "url": "https://www.loorays.top",
       "desc": "共享IT之美，共创机器未来！",
@@ -267,12 +279,6 @@
       "url": "https://img2cdn.loorays.top/",
       "desc": "GitHub图片转CDN高速链接",
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/loorays.png"
-    },
-    {
-      "name": "NVIDIA",
-      "url": "https://www.nvidia.com/",
-      "desc": "NVIDIA官网",
-      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/nvidia.png"
     },
     {
       "name": "百度",
@@ -335,6 +341,12 @@
       "url": "https://store.steampowered.com",
       "desc": "全球领先的游戏分发平台",
       "icon": "si:steam"
+    },
+    {
+      "name": "Lyrics",
+      "url": "https://lyrics.net.cn/",
+      "desc": "歌词大全",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/lyrics.png"
     },
     {
       "name": "小红书",
@@ -655,6 +667,12 @@
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/宇树.svg"
     },
     {
+      "name": "灵心巧手",
+      "url": "https://www.linkerbot.cn/",
+      "desc": "数聚灵巧 智启万物",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/灵心巧手.png"
+    },
+    {
       "name": "启能遥感手套",
       "url": "https://docs.qnbot.com/zh-CN",
       "desc": "启能科技灵巧手遥操作手套",
@@ -671,6 +689,12 @@
       "url": "https://www.brainco-hz.com/docs/revolimb-hand/revo3/parameters.html",
       "desc": "强脑灵巧手revo3",
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/qiangnnao.png"
+    },
+    {
+      "name": "镜识科技",
+      "url": "https://www.mirrormetech.com/cn/",
+      "desc": "浙大团体机器狗研发",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/jingshi.png"
     },
     {
       "name": "珠海创芯",
@@ -697,10 +721,10 @@
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/luowei.svg"
     },
     {
-      "name": "灵心巧手",
-      "url": "https://www.linkerbot.cn/",
-      "desc": "数聚灵巧 智启万物",
-      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/灵心巧手.png"
+      "name": "悟时底盘资料",
+      "url": "https://wooshrobot.apifox.cn/",
+      "desc": "悟时底盘二次开发资料",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/woosh.png"
     },
     {
       "name": "悟时底盘",
@@ -709,10 +733,16 @@
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/woosh.png"
     },
     {
-      "name": "悟时底盘资料",
-      "url": "https://wooshrobot.apifox.cn/",
-      "desc": "悟时底盘二次开发资料",
-      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/woosh.png"
+      "name": "onnxruntime",
+      "url": "https://onnxruntime.ai/",
+      "desc": "生产级 AI 引擎加快训练和推理速度",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/onnxruntime_.png"
+    },
+    {
+      "name": "pytorch中文文档",
+      "url": "https://pytorch-cn.readthedocs.io/zh/latest",
+      "desc": "深度学习框架官方中文指南",
+      "icon": "url:https://cdn.jsdmirror.com/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
     },
     {
       "name": "微雪电子",
@@ -779,12 +809,6 @@
       "url": "https://www.在下莫老师.com/#",
       "desc": "Vue/React 高质量组件分享",
       "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/bilibili-color.svg"
-    },
-    {
-      "name": "pytorch中文文档",
-      "url": "https://pytorch-cn.readthedocs.io/zh/latest",
-      "desc": "深度学习框架官方中文指南",
-      "icon": "url:https://cdn.jsdmirror.com/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg"
     },
     {
       "name": "原创力文档大全",
@@ -861,6 +885,18 @@
       "url": "https://www.photopea.com",
       "desc": "在线PS",
       "icon": "url:https://cdn.jsdmirror.com/gh/lobehub/lobe-icons@master/packages/static-svg/icons/adobe-color.svg"
+    },
+    {
+      "name": "Awwwards",
+      "url": "https://www.awwwards.com/",
+      "desc": "网页设计奖项组织",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/awwwards.png"
+    },
+    {
+      "name": "pinterest",
+      "url": "https://www.pinterest.com/",
+      "desc": "国外高质量图片网站",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/pinterest.png"
     },
     {
       "name": "fontawesome图标库",
@@ -963,12 +999,6 @@
       "url": "https://www.landingfolio.com",
       "desc": "全球优秀网页设计案例",
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/网站设计灵感库.ico"
-    },
-    {
-      "name": "pinterest",
-      "url": "https://www.pinterest.com/",
-      "desc": "国外高质量图片网站",
-      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/pinterest.png"
     }
   ],
   "nav_data_学习教育": [
@@ -1083,10 +1113,22 @@
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/claude.png"
     },
     {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/",
+      "desc": "构建未来的AI开源社区",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/huggingface.png"
+    },
+    {
+      "name": "miniMax",
+      "url": "https://www.minimax.cn/",
+      "desc": "与所有人共创智能",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/minimax.png"
+    },
+    {
       "name": "Codex",
       "url": "https://openai.com/zh-Hans-CN/codex/",
       "desc": "OpenAI旗下AI编程工具",
-      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/codex.png"
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/codex_1603.png"
     },
     {
       "name": "豆包AI",
