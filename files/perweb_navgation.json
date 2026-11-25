@@ -269,6 +269,12 @@
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/nvidia.png"
     },
     {
+      "name": "Microsoft ",
+      "url": "https://github.com/microsoft",
+      "desc": "Microsoft Github ",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/microsoft.png"
+    },
+    {
       "name": "Loorays",
       "url": "https://www.loorays.top",
       "desc": "共享IT之美，共创机器未来！",
@@ -461,6 +467,18 @@
       "url": "https://www.megacartoons.net/video-serie/spongebob-squarepants",
       "desc": "经典卡通英文学习素材",
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/spongebob.png"
+    },
+    {
+      "name": "樱花动漫",
+      "url": "https://www.dongguanchangfang.com",
+      "desc": "最新最全的热门动漫资源",
+      "icon": "fa:fa-solid fa-clapperboard"
+    },
+    {
+      "name": "虚拟与现实VR全景",
+      "url": "https://www.utovr.com",
+      "desc": "VR全景视频与图片展示",
+      "icon": "ri:ri-road-map-line"
     }
   ],
   "nav_data_竞赛与刷题": [
@@ -1123,6 +1141,12 @@
       "url": "https://www.minimax.cn/",
       "desc": "与所有人共创智能",
       "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/minimax.png"
+    },
+    {
+      "name": "Motionsites",
+      "url": "https://motionsites.ai/",
+      "desc": "审美超高的AI网页设计prompts",
+      "icon": "url:https://cdn.jsdmirror.com/gh/loorays/looraysImage@main/logo/montionsites.png"
     },
     {
       "name": "Codex",
